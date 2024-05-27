@@ -10,7 +10,7 @@ public class LC008_myAtoi {
         s = s.trim();
 
         // 如果字符串为空，我们直接返回0
-        if (s.length() == 0) {
+        if (s.isEmpty()) {
             return 0;
         }
 
