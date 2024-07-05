@@ -120,7 +120,7 @@ public class LC85_maximalRectangle {
         return maxArea;
     }
 
-    public int maximalRectangle1(char[][] matrix) {
+    public int calculateMaxRectangleAreaByExpandingUpwards(char[][] matrix) {
         if (matrix.length == 0) {
             return 0;
         }
